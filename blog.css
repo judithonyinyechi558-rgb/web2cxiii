@@ -1,0 +1,107 @@
+body {
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            background-color: #f4f6f8;
+            color: #333;
+            line-height: 1.6;
+            border: 5px solid #0000ff;
+            padding: 20px;
+            max-width: 80%;
+            margin: 20px auto;
+        }
+
+        h2, h3 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        /* Shared section styling */
+        #s1, #s2, #s3, #s4, #s5, #s6 {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 900px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+            transition: 0.3s;
+        }
+
+        h2 em {
+            color: #3498db;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        b, strong {
+            color: #3498db;
+        }
+
+        hr {
+            border: none;
+            height: 1px;
+            background-color: #ddd;
+            margin: 30px 0;
+        }
+
+        /* Call to action form */
+        form {
+            margin-top: 15px;
+        }
+
+        label {
+            font-weight: 600;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            transition: border-color 0.3s;
+        }
+
+        input[type="text"]:focus {
+            border-color: #3498db;
+            outline: none;
+        }
+
+        input[type="submit"] {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #217dbb;
+        }
+
+        /* Hover effect */
+        #s1:hover, #s2:hover, #s3:hover, #s4:hover, #s5:hover, #s6:hover {
+            box-shadow: 0 6px 16px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+
+        /* Unique background colors */
+        #s1 { background-color: #e8f4fa; } /* light blue */
+        #s2 { background-color: #fff8e7; } /* soft cream */
+        #s3 { background-color: #e8f9e9; } /* light green */
+        #s4 { background-color: #fce8f3; } /* pink tint */
+        #s5 { background-color: #f1f0ff; } /* lavender */
+        #s6 { background-color: #f9f9f9; } /* neutral white */
+
+        h5{
+            text-align: center;
+            color: #555;
+            margin-top: 20px;
+        }
